@@ -1,0 +1,153 @@
+/* header */
+
+.hosp {
+	width: 100%;
+}
+.hosp .header {
+	height: 74px;
+	background-color: #f7f7f7;
+	line-height: 74px;
+	overflow: hidden;
+} 
+.hosp .header p {
+	width: 150px;
+	height: 80px;
+	overflow: hidden;
+	margin: 0 auto
+}
+
+.hosp .header .two {
+	color: #da1515;
+}
+/* article */
+.hosp .article .one {
+	width: 100%;
+	border-bottom: 4px solid #eeeeee
+}
+.hosp .img1 {
+	width: 100%;
+}
+.hosp .content {
+	margin: 5px 2%;
+}
+.hosp .content .img2 {
+	margin: 5px 2%;
+	width: 50px;
+	float: left;
+} 
+.hosp .content .span1 {
+	font-size: 12px;
+}
+.hosp .content .p1 {
+	position: relative;
+	float: left;
+	margin: 5px 2%;
+	font-size: 13px;
+	color: #868686;
+	width: 100%;
+	
+
+}
+.hosp .spans span {
+	 float: left;  
+	margin: 8px 0 0 2px;
+}
+.hosp .imgs {
+	float: right;
+	margin-right: 10px;
+}
+.hosp .imgs img {
+	width: 20px;
+	margin: 2px;
+}
+
+
+.hosp .img4 {
+	width: 50px;
+	margin-left: 2%;
+}
+.hosp .p2 span {
+	color: #d51928;
+	font-size: 12px;
+}
+.hosp .ul1 {
+	margin-left: 24%;
+	margin-top: 20px;
+	overflow: hidden;
+
+}
+.hosp .ul1 li {
+	float: left;
+	width: 35%;
+	height: 30px;
+	border: 1px solid #ccc;
+	text-align: center;
+	line-height: 30px;
+	color: #d51928;
+	font-weight: bold;
+}
+.hosp .ul1 .checked {
+	background-color: #eeeeee
+}
+.hosp .choose {
+	display: none
+}
+.hosp .selected {
+	display: block
+}
+
+.hosp .ul2 {
+	
+	width: 90%;
+	margin: 20px 5%;
+	font-size: 12px;
+	overflow: hidden;
+
+}
+.hosp .ul2 img {
+	float: left; 
+	margin-left: 2%;
+	width: 100px;
+}
+ .hosp .ul2 .p {
+	margin-left: 10%;
+	width: 90%;
+} 
+.hosp .ul2 .p1 {
+	font-weight: bold;
+}
+.hosp .ul2 .p2 {
+	margin-top: 10px;
+	color: #da1515;
+	font-weight: bold
+}
+.hosp .ul2 .p3 {
+	margin-top: 10px;
+	color: #868686;
+	float: left
+}
+.hosp .p3 :last-child {
+	text-decoration: line-through;
+}
+.hosp .p4 {
+	float: right;
+	margin-right: 6%;
+	background-color: #d51928;
+	color: #f7f7f7;
+	text-align: center;
+	width: 55px;;
+}
+/* footer */
+.hosp .footer ul {
+	display: flex;
+	flex-flow: row nowrap;
+	margin-left: 8%;
+}
+.hosp .footer li {
+	width: 20%
+}
+.hosp .footer li p {
+	float: left;
+
+	font-size: 12px;
+}
